@@ -1,0 +1,187 @@
+html{
+height:100%;
+}
+
+body{
+background:#030;
+height:100%;
+margin:0;
+color:#030;
+}
+
+a:link {color:#080;}      /* unvisited link */
+a:visited {color:#070;}  /* visited link */
+a:hover {color:#090;}  /* mouse over link */
+a:active {color:#3a3;}  /* selected link */
+
+h1{
+font-size:1.2em;
+}
+
+h2{
+font-size:1.1em;
+color:#040;
+}
+
+h3{
+font-size:1.0em;
+color:#050;
+}
+
+p{
+-webkit-margin-before: 0px;
+-webkit-margin-after: 0px;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+margin-top:0.5em;
+margin-bottom:0.5em;
+}
+
+#container{
+margin: 0 auto;
+width:800px;
+height:100%;
+background:#fff;
+}
+
+#top{
+position:fixed;
+top:0;
+height:48px;
+width:800px;
+background:#dfd;
+}
+
+#side{
+position:fixed;
+top:3em;
+bottom:0;
+width:180px;
+padding: 20px 10px;
+background:#efe;
+text-align:center;
+}
+
+#side ul{
+text-align:left;
+}
+
+#main{
+position:relative;
+top:3em;
+left:200px;
+width:580px;
+bottom:0;
+padding:10px;
+background:#fff;
+}
+
+#main img{
+text-align:center;
+margin:10px auto;
+}
+
+#jpg{
+margin:21px 42px 0 84px !important;
+}
+
+#gif{
+margin:21px 84px 0 42px !important;
+}
+
+div.aim,
+div.tip,
+div.note,
+div.quiz,
+div.warn{
+background:#cfc;
+border:10px solid #fff;
+border-left:10px solid #cfc;
+border-right:10px solid #cfc;
+margin:-10px;
+margin-bottom:10px;
+}
+
+div.tip span:first-of-type,
+div.note span:first-of-type,
+div.quiz span:first-of-type,
+div.warn span:first-of-type{
+font-weight:700;
+}
+
+div.aim{
+border-color:#cfc;
+background:#efe;
+margin-top:10px;
+}
+
+div.aim p:first-child{
+font-weight:700;
+text-align:center;
+}
+
+div.quiz{
+background:#dfc;
+border-left-color: #dfc;
+border-right-color: #dfc;
+}
+
+div.note{
+background:#cfd;
+border-left-color: #cfd;
+border-right-color: #cfd;
+}
+
+div.warn{
+background:#fdc;
+border-left-color: #fdc;
+border-right-color: #fdc;
+}
+
+.red{
+color:#900;
+}
+
+.grey{
+color:#666;
+}
+
+.blue{
+color:#009;
+}
+
+li p,
+dd p{
+margin-top: 0;
+margin-bottom: 0.4em;
+}
+
+dt{
+font-weight:700;
+}
+
+dd{
+margin-bottom: 0.4em;
+}
+
+.noSelect{
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+code,
+pre{
+background:#f3fff3;
+border:1px solid #ded;
+}
+
+.whitespace{
+margin-top:5em;
+margin-bottom:30em;
+text-align:center;
+color:#9c9;
+}

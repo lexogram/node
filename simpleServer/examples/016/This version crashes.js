@@ -1,0 +1,1 @@
+The version of matchToFile.js in this folder contains a bug which will crash the server when a valid url is requested. The bug is associated with the naming of variables and with closures. It can be fixed in at least 3 different ways.
